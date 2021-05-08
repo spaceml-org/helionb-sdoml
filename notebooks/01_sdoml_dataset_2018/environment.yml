@@ -1,0 +1,17 @@
+name: sdoml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.8
+  - ipython
+  - jupyter
+  - dask
+  - scipy
+  - pip
+  - pip:
+    - gcsfs
+    - matplotlib
+    - pandas
+    - sunpy
+    - zarr
