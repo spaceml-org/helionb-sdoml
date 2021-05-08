@@ -1,4 +1,4 @@
-name: deepem
+name: 02_temperature_maps_2018
 channels:
   - defaults
   - pytorch
@@ -6,8 +6,11 @@ channels:
 dependencies:
   - python=3.8.*
   - pytorch=1.8.*
-  - cudatoolkit=11.1
+  - cudatoolkit
   - numpy
   - pandas
   - matplotlib
   - jupyter
+  - pip
+  - pip:
+  	- 
