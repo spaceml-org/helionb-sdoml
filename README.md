@@ -14,15 +14,15 @@ Heliophysics notebooks corresponding to the SDO ML Dataset
 
 ## Interacting with each notebook:
 
-Each notebook is contained within its own <project> folder, and contains a number of files.
+Each notebook is contained within its own <project> folder:
 
 ```
 .
 └── notebooks
     └── <project>
         ├── README.md
-        ├── <notebook>-colab.ipynb # A Jupyter notebook designed to be executed on Google Colab.
-        ├── <notebook>-dev.ipynb # The corresponding local development version of the colab notebook.
+        ├── <project>-colab.ipynb # A Jupyter notebook designed to be executed on Google Colab.
+        ├── <project>-dev.ipynb # The corresponding local development version of the colab notebook.
         ├── environment.yml # Conda environment file
         └── requirements.txt # Requirements file
 
