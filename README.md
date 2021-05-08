@@ -28,7 +28,7 @@ Each notebook is contained within its own <project> folder, and contains a numbe
 
 ```
 
-For local development, the necessary environment can be created as follows (under the assumption that a conda installation exists).
+For local development, the necessary environment can be created as follows (under the assumption that an anaconda installation exists).
 
 ```
 cd notebooks/<project>
