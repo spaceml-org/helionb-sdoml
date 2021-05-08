@@ -1,7 +1,9 @@
 # Temperature Maps of the Solar Atmosphere
 *DeepEM: A deep-learning approach to differential emission measure inversion using a 1x1 Convolutional Neural Network*
 
-<a href="..." target="_parent\"><img src=“https://colab.research.google.com/assets/colab-badge.svg” alt=“Open In Colab”/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spaceml-org/helionb-sdoml/blob/initial_nb/notebooks/02_temperature_maps_2018/DeepEM_gcp.ipynb)
+
+
 
 ### Introduction
 
@@ -22,6 +24,3 @@ We utilised a convolutional neural network (CNN) with a kernel size of 1x1, acce
 ![img](./figure_one.png)
 
 **Figure 1**: *Left*, *SDO/*AIA image of the solar corona in the relatively isothermal 171 Å filter channel. This channel is sensitive to plasma at log10T ≈ 5.9 K. *Right:* Temperature maps shown at log10T = 5.9 K as recovered by Basis Pursuit (BP) and DeepEM (trained on 512 x 512 BP solutions). Locations where BP failed to converge are shown as black pixels. 
-
-
-
