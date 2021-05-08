@@ -39,7 +39,7 @@ conda env create -f environment.yml
 conda activate <environment>
 ```
 ```
-# start the jupyter notebook
+# start the jupyter notebook app
 jupyter notebook
 ```
 
