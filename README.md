@@ -19,7 +19,7 @@ Each notebook is contained within its own <project> folder:
 ```
 .
 └── notebooks
-    └── <project>
+    └── ##_<project>_<year> # Each project has it's own folder named sequentially, with the project name, and year of the project
         ├── README.md
         ├── <project>-colab.ipynb # A Jupyter notebook designed to be executed on Google Colab.
         ├── <project>-dev.ipynb # The corresponding local development version of the colab notebook.
@@ -45,3 +45,5 @@ jupyter notebook
 
 ## Contributions
 Contributions are welcome as pull requests to the main branch, and should mirror the stucture of existing projects.
+
+A requirements file can be produced with `pip freeze > requirements.txt`, however, to minimize the nunmber of redundant packages in that list, first create a virtual environment, and `pip install` packages there (Anaconda is popular among scientists).
