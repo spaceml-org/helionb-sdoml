@@ -47,3 +47,12 @@ jupyter notebook
 Contributions are welcome as pull requests to the main branch, and should mirror the stucture of existing projects.
 
 A requirements file can be produced with `pip freeze > requirements.txt`, however, to minimize the nunmber of redundant packages in that list, first create a virtual environment, and `pip install` packages there (Anaconda is popular among scientists).
+
+
+
+```
+conda create --name <name>
+conda activate <name>
+conda list #this should be empty
+```
+

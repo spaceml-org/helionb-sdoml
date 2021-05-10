@@ -1,16 +1,15 @@
-name: 02_temperature_maps_2018
+name: temperature_maps_2018_2
+
 channels:
   - defaults
   - pytorch
+  - nvidia
   - conda-forge
+  
 dependencies:
-  - python=3.8.*
-  - pytorch=1.8.*
-  - cudatoolkit
-  - numpy
-  - pandas
-  - matplotlib
-  - jupyter
-  - pip
+  - python=3.9.4
+  - pytorch=1.8.1
+  - cudatoolkit=11.1
+  - pip=21.0.1
   - pip:
-  	- 
+     - -r requirements.txt

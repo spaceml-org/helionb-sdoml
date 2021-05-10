@@ -1,4 +1,4 @@
-name: sdoml_dataset_2018
+name: aia_autocalibration_2019
 
 channels:
   - conda-forge
@@ -6,9 +6,8 @@ channels:
 
 dependencies:
   - python==3.9.4
-  - dask==2021.4.1
   - pip==21.0.1
-  - sunpy==2.1.*
+  - sunpy==2.1.4
   - pip:
       - -r requirements.txt
 
