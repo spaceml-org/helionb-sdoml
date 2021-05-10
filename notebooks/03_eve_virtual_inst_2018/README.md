@@ -1,7 +1,4 @@
 # A Deep Learning Virtual Instrument for Monitoring EUV Solar Spectral Irradiance
-*...subtitle...*
-
-
 
 ### Introduction
 
@@ -29,6 +26,8 @@ It was demonstrated that with 4 years’ worth of co-temporal SDO/AIA and SDO/EV
 Our approach for nowcasting MEGS-A spectral irradiance measurements from AIA images achieves a median error of 1.6% across MEGS-A lines, outperforming a variety of approaches including a differential emission measure (DEM)-based approach (see SpaceML project DeepEM). In addition to quantitatively characterizing the performance of the method, Figure 1 provides evidence that the model is solving the AIA to MEGS-A mapping in a physically sensible way.
 
 While this project showcases the potential for a new age of virtual instruments, this work would have been impossible without the data taken by the AIA and EVE instruments. Virtual instruments won’t replace the need for their hardware counterparts, but can leverage existing and historic scientific instruments to yield similar levels of scientific data products as hardware missions currently do. Other important examples of this potential include the estimation of photospheric velocities based on continuum images, and the assembly of superresolution magnetograms (see SpaceML Project). 
+
+
 
 ---
 
