@@ -1,0 +1,14 @@
+name: sdoml_dataset_2018
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.9.4
+  - dask==2021.4.1
+  - pip==21.0.1
+  - sunpy==2.1.*
+  - pip:
+      - -r requirements.txt
+
