@@ -1,7 +1,7 @@
 # Temperature Maps of the Solar Atmosphere
 *DeepEM: A deep-learning approach to differential emission measure inversion using a 1x1 Convolutional Neural Network*
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spaceml-org/helionb-mag/blob/main/notebooks/02_temperature_maps_2018/temperature_maps_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spaceml-org/helionb-sdoml/blob/main/notebooks/02_temperature_maps_2018/temperature_maps_colab.ipynb)
 
 
 
