@@ -1,5 +1,5 @@
-# SDO AIA Autocalibration
-Demonstration of the SDO/AIA autocalibration ([Dos Santos *et al* 2021 *A&A*](https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..53D/abstract)); see the autocalibration code here: https://github.com/vale-salvatelli/sdo-autocal_pub
+# SDO/AIA Autocalibration
+Demonstration of the SDO/AIA autocalibration ([Dos Santos *et al* 2021 *A&A*](https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..53D/abstract)); see the code here: https://github.com/vale-salvatelli/sdo-autocal_pub
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spaceml-org/helionb-sdoml/blob/main/notebooks/02_temperature_maps_2018/aia_autocalibration_colab.ipynb)
 
@@ -21,15 +21,15 @@ Our approach establishes the framework for a novel technique based on convolutio
 ![img](figure_two.png)
 **Figure 2**: Multichannel CNN approach to degradation prediction.
 
-The results of the ML approach (see Figure 2), were compared to the the AIA multichannel degradation curves derived from sounding-rocket data.
 
-The results indicate that the CNN-based models significantly outperform the non-ML baseline model in calibrating instrument degradation. The CNN-based models reproduce the degradation corrections derived from the sounding-rocket cross-calibration measurements within the experimental measurement uncertainty, indicating that it performs equally well as current techniques.
+
+The results of the ML approach (see Figure 2), were compared to the the AIA multichannel degradation curves derived from sounding-rocket data. The results indicate that the CNN-based models significantly outperform the non-ML baseline model in calibrating instrument degradation. The CNN-based models reproduce the degradation corrections derived from the sounding-rocket cross-calibration measurements within the experimental measurement uncertainty, indicating that it performs equally well as current techniques.
 
 In addition, [Dos Santos *et al* 2021 *A&A*](https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..53D/abstract) reconstructed the degradation curves from 2010 to 2020 and compared the results with models used today to calibrate AIA EUV images. The approach establishes the framework for a novel technique based on CNNs to calibrate EUV instruments. We envision that our technique can be adapted to other imaging or spectral instruments operating at different wavelengths.
 
 
 
-
+---
 
 ### Local development
 
