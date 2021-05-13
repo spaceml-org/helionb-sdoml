@@ -1,7 +1,7 @@
 # SDO AIA Autocalibration
 Demonstration of the SDO/AIA autocalibration ([Dos Santos *et al* 2021 *A&A*](https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..53D/abstract)); see the autocalibration code here: https://github.com/vale-salvatelli/sdo-autocal_pub
 
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spaceml-org/helionb-sdoml/blob/main/notebooks/02_temperature_maps_2018/aia_autocalibration_colab.ipynb)
 
 ### Overview
 
