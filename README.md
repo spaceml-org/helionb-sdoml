@@ -3,11 +3,11 @@ Heliophysics notebooks corresponding to the SDO ML Dataset
 
 ## Notebooks:
 * **01: SDO ML Dataset (2018)**
-  * In this notebook, we demonstrate the process for interacting with a small sample of the SDO ML dataset. [Galvez, R. *et al* 2019 *ApJS*](https://ui.adsabs.harvard.edu/abs/2019ApJS..242....7G/abstract).
+  * A demonstration of interacting with a sample of the SDO ML dataset. [Galvez, R. *et al* 2019 *ApJS*](https://ui.adsabs.harvard.edu/abs/2019ApJS..242....7G/abstract).
 * **02: Temperature Maps (2018)**
-  * Demonstrate a deep-learning approach to differential emission measure inversion using a 1x1 Convolutional Neural Network. [Wright, P. *et al* 2019 *Zenodo*](https://ui.adsabs.harvard.edu/abs/2019zndo...2587015W/abstract).
+  * A deep-learning approach to differential emission measure inversion using a 1x1 Convolutional Neural Network. [Wright, P. *et al* 2019 *Zenodo*](https://ui.adsabs.harvard.edu/abs/2019zndo...2587015W/abstract).
 * **04: AIA Autocalibration (2019)** 
-  * *Under development*, based on the work of [Dos Santos *et al* 2021 *A&A*](https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..53D/abstract).
+  * Demonstration inference of the SDO AIA Autocalibration method: [Dos Santos *et al* 2021 *A&A*](https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..53D/abstract).
 
 *The following notebooks are currently under development*:
 
