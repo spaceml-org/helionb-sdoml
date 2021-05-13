@@ -9,8 +9,8 @@
 ### Local development
 
 ```
-git clone https://gitlab.com/frontierdevelopmentlab/living-with-our-star/expanding-sdo-capabilities.git
+git clone https://github.com/vale-salvatelli/sdo-autocal_pub
 ```
 
-`conda env create -f environment.yml` will `pip install -e expanding-sdo-capabilities/.` in the background.
+`conda env create -f environment.yml` will `pip install -e sdo-autocal_pub/.` in the background.
 

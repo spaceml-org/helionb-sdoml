@@ -14,5 +14,5 @@ dependencies:
   - sunpy==2.1.*
   - pip:
       - -r requirements.txt
-      - -e expanding-sdo-capabilities/.
+      - -e sdo-autocal_pub/.
 
