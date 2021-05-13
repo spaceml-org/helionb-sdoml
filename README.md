@@ -22,7 +22,7 @@ Each notebook is contained within its own <project> folder:
 ```
 .
 └── notebooks
-    └── ##_<project>_<year> # Each project has it's own folder named sequentially, with the project name, and year of the project
+    └── ##_<project>_<year> # Each project has its own folder named sequentially, with the project name, and year of the project
         ├── README.md
         ├── <project>_colab.ipynb # A Jupyter notebook designed to be executed on Google Colab.
         ├── <project>.ipynb # The corresponding local development version of the colab notebook.
