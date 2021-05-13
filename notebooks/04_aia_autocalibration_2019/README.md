@@ -8,7 +8,7 @@ Demonstration of the SDO/AIA autocalibration ([Dos Santos *et al* 2021 *A&A*](ht
 Remote-sensing instruments on-board heliophysics space missions provide a pool of information about solar activity by measuring the solar magnetic field and the emission of light from the multilayered, multi-thermal, and dynamic solar atmosphere. Extreme ultraviolet (EUV) wavelength observations from space help in understanding the subtleties of the outer layers of the Sun, that is, the chromosphere and the corona. Unfortunately, EUV imagers onboard different spacecraft, such as NASA Solar Dynamics Observatory (SDO), Solar Orbiter, and STEREO, suffer from time-dependent degradation, reducing their sensitivity. 
 
 ![img](figure_one.png)
-**Figure 1**: Images as observed from SDO/AIA prior to degradation correction (top), and after correction (bottom).
+**Figure 1**: Images as observed from SDO/AIA prior to degradation correction.
 
 The current best calibration techniques for SDO’s Atmospheric Imaging Assembly (AIA) rely on flights of sounding rockets to maintain absolute calibration. These flights are infrequent, complex, and limited to a single vantage point. Therefore, we aim to develop a novel method based on machine learning (ML) that exploits spatial patterns on the solar surface across multiwavelength observations to auto calibrate the instrument degradation.
 
